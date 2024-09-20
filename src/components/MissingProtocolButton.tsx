@@ -14,7 +14,10 @@ const MissingProtocolButton = () => {
       <Typography>Missing Protocols?</Typography>
       <Button
         onClick={() =>
-          window.open('https://github.com/chrischang/abstract-ecosystem', '_blank')
+          window.open(
+            'https://github.com/chrischang/abstract_unofficial_ecosystem_map',
+            '_blank'
+          )
         }
       >
         Submit a PR
