@@ -6,6 +6,7 @@ export enum Category {
   Defi = 'Defi',
   Gaming = 'Gaming',
   Indexer = 'Indexer',
+  Paymaster = 'Paymaster',
   NFT = 'NFT',
   Social = 'Social',
   Wallet = 'Wallet',
