@@ -3,6 +3,7 @@ import { bridges } from './bridges';
 import { defi } from './defi';
 import { gamings } from './gamings';
 import { indexer } from './indexer';
+import { paymaster } from './paymaster';
 import { nft } from './nft';
 import { social } from './social';
 import { wallet } from './wallet';
@@ -21,6 +22,7 @@ const protocols: Protocol[] = [
   ...defi,
   ...gamings,
   ...indexer,
+  ...paymaster,
   ...nft,
   ...social,
   ...wallet,
