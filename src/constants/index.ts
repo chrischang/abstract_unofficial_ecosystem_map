@@ -11,4 +11,5 @@ export enum Category {
   Social = 'Social',
   Wallet = 'Wallet',
   RWA = 'RWA',
+  Prediction = 'Prediction Markets',
 }
