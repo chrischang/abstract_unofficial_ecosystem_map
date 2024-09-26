@@ -8,6 +8,7 @@ import { nft } from './nft';
 import { social } from './social';
 import { wallet } from './wallet';
 import { rwa } from './rwa';
+import { socialFiGame } from './socialfigame';
 
 export type Protocol = {
   logoPath: string;
@@ -27,6 +28,7 @@ const protocols: Protocol[] = [
   ...social,
   ...wallet,
   ...rwa,
+  ...socialFiGame,
 ];
 
 // console.log(protocols, 'protocol');
