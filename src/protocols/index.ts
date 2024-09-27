@@ -9,6 +9,7 @@ import { social } from './social';
 import { wallet } from './wallet';
 import { rwa } from './rwa';
 import { prediction } from './prediction';
+import { socialFiGame } from './socialfigame';
 
 export type Protocol = {
   logoPath: string;
@@ -29,6 +30,7 @@ const protocols: Protocol[] = [
   ...social,
   ...wallet,
   ...rwa,
+  ...socialFiGame,
 ];
 
 // console.log(protocols, 'protocol');
