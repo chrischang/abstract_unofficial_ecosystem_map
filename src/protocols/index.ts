@@ -8,6 +8,7 @@ import { nft } from './nft';
 import { social } from './social';
 import { wallet } from './wallet';
 import { rwa } from './rwa';
+import { prediction } from './prediction';
 import { socialFiGame } from './socialfigame';
 
 export type Protocol = {
@@ -21,6 +22,7 @@ export type Protocol = {
 const protocols: Protocol[] = [
   ...bridges,
   ...defi,
+  ...prediction,
   ...gamings,
   ...indexer,
   ...paymaster,
