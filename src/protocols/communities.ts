@@ -23,5 +23,12 @@ const communities: Protocol[] = [
     category: Category.Community,
     twitterUrl: 'https://x.com/AbstractFrance_',
   },
+  {
+    name: 'Abstract Vietnam',
+    url: 'https://t.me/AbstractVN',
+    logoPath: '/logos/abstract_vietnam.jpg',
+    category: Category.Community,
+    twitterUrl: 'https://x.com/abstractvn',
+  },
 ];
 export { communities };
