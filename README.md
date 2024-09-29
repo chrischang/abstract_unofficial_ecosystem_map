@@ -10,7 +10,15 @@ https://abseco.dev/
 
 ## How do I add my protocol information?
 
-Add your protocol information to `src/protocols/index.ts` and the logo to `public/logos/`
+To contribute to this repository:
+
+* Fork this repository
+* Add your protocol information to `src/protocols/index.ts`
+* Place your protocol's logo in `public/logos/`
+* Submit a pull request to this repository
+
+If you're adding a new category, refer to the following example for the necessary file changes:
+https://github.com/chrischang/abstract_unofficial_ecosystem_map/pull/3/files
 
 ## What should the size of the logo be?
 
