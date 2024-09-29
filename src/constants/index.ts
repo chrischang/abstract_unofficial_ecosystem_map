@@ -3,6 +3,7 @@
  */
 export enum Category {
   Bridge = 'Bridge',
+  Community = 'Community',
   Defi = 'Defi',
   Gaming = 'Gaming',
   Indexer = 'Indexer',
