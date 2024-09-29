@@ -7,12 +7,13 @@ const MissingProtocolButton = () => {
         position: 'absolute',
         right: 0,
         display: 'flex',
-        gap: '0.25rem',
+        gap: 2,
         alignItems: 'center',
       }}
     >
       <Typography>Missing Protocols?</Typography>
       <Button
+        variant={'outlined'}
         onClick={() =>
           window.open(
             'https://github.com/chrischang/abstract_unofficial_ecosystem_map',

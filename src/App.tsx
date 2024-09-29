@@ -40,7 +40,7 @@ const App: FC = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <MissingProtocolButton />
-      <Paper sx={{ background: 'rgb(0,0,0)', minHeight: '100vh' }}>
+      <Paper sx={{ background: 'rgb(0,0,0)', minHeight: '100vh', px: 2 }}>
         <Container
           maxWidth={'lg'}
           sx={{
