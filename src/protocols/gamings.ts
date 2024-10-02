@@ -9,6 +9,13 @@ const gamings: Protocol[] = [
     category: Category.Gaming,
     twitterUrl: 'https://x.com/ThePlooshies',
   },
+  {
+    name: 'Onchain Heroes',
+    url: 'https://www.onchainheroes.xyz/',
+    logoPath: '/logos/onchain_heroes.jpg',
+    category: Category.Gaming,
+    twitterUrl: 'https://x.com/onchainheroes',
+  },
 ];
 
 export { gamings };
